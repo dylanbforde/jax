@@ -1,0 +1,19 @@
+[project]
+name = "path-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jax",
+    "jaxlib",
+    "flax",
+    "optax",
+    "einops",
+    "notebook",
+    "orbax-checkpoint",
+    "chex",
+    "ml-collections",
+    "ott-jax",
+    "grain-nightly"
+]
